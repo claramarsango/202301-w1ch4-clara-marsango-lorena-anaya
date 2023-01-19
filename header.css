@@ -72,4 +72,9 @@
   .fa-paw {
     font-size: 3rem;
   }
+  .nav-bar__purchase-button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(238, 100, 55);
+    border-radius: 0% 30% 30%;
+  }
 }

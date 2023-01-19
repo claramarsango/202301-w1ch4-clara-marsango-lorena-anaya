@@ -60,4 +60,16 @@ body {
     height: 5rem;
     font-size: 1.5rem;
   }
+
+  .info-container__button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(238, 100, 55);
+    border: 2px solid rgb(238, 100, 55);
+    border-radius: 0% 30% 30%;
+  }
+
+  .home:hover {
+    color: rgb(238, 100, 55);
+    text-decoration: underline;
+  }
 }
