@@ -29,3 +29,47 @@
 .nav-bar__links {
   display: flex;
 }
+
+@media (min-width: 376px) {
+  .header {
+    box-shadow: 10px 5px 15px rgba(189, 188, 188, 0.672);
+  }
+
+  .nav-bar {
+    display: flex;
+    width: 50rem;
+  }
+
+  .nav-bar__links {
+    display: flex;
+    width: 80rem;
+    font-size: 2rem;
+    list-style: none;
+    justify-content: space-around;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  .nav-bar__links-item {
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-bar__purchase-button {
+    font-size: 1.3rem;
+    font-family: Nunito;
+    font-weight: 700;
+    width: 8.5rem;
+    height: 3.5rem;
+    margin-right: 1rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(238, 100, 55);
+    border-radius: 0% 30% 30%;
+  }
+
+  .fa-paw {
+    font-size: 3rem;
+  }
+}
