@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.burger-menu-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+}
+
+.fa-paw {
+  color: rgb(238, 100, 55);
+  font-size: 2rem;
+}
+
+.fa-bars {
+  font-size: 1rem;
+  align-self: center;
+}
+
+.nav-bar {
+  display: none;
+}
+
+.nav-bar__links {
+  display: flex;
+}
