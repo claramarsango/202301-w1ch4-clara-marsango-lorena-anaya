@@ -33,3 +33,31 @@ body {
   border: 0;
   border-radius: 0% 30% 30%;
 }
+
+@media (min-width: 376px) {
+  .info-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+  }
+
+  .info-container__headings {
+    text-align: left;
+  }
+
+  .headings__more-info {
+    font-size: 3.5rem;
+  }
+
+  .headings__main-title {
+    font-size: 1.5rem;
+  }
+
+  .info-container__button {
+    align-self: center;
+    width: 10rem;
+    height: 5rem;
+    font-size: 1.5rem;
+  }
+}
