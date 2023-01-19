@@ -4,6 +4,10 @@
   justify-content: center;
 }
 
+p {
+  display: none;
+}
+
 div {
   padding-left: 10%;
   padding-right: 10%;
@@ -70,5 +74,50 @@ div {
   img {
     width: 27rem;
     height: 28rem;
+  }
+
+  .pet-images-container__option-activity-walks {
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    position: absolute;
+    top: 83%;
+    left: 28%;
+  }
+
+  .pet-images-container__option-title {
+    color: white;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 79%;
+    left: 36%;
+  }
+
+  .pet-images-container__option-activity-playtime {
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    position: absolute;
+    top: 84%;
+    left: 27%;
+  }
+
+  .pet-images-container__option-activity-rest {
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    position: absolute;
+    top: 83%;
+    left: 31%;
+  }
+
+  .pet-images-container__option-1:hover p {
+    display: flex;
+  }
+  .pet-images-container__option-2:hover p {
+    display: flex;
+  }
+  .pet-images-container__option-3:hover p {
+    display: flex;
   }
 }
