@@ -1,54 +1,53 @@
 .pet-images-container {
   display: flex;
   flex-wrap: wrap;
-}
-
-body {
-  color: white;
+  justify-content: center;
 }
 
 div {
-  padding-left: 30%;
-  padding-right: 30%;
-  margin: 8%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 2%;
 }
 
 img {
   border-radius: 10%;
+  width: 18rem;
+  height: 12rem;
 }
 
 .pet-images-container__option-title {
   color: white;
-  font-size: 2rem;
+  font-size: 0.7rem;
   position: absolute;
-  top: 77%;
-  left: 43%;
+  top: 75%;
+  left: 41%;
 }
 .pet-images-container__option-activity-playtime {
   color: white;
-  font-size: 3rem;
+  font-size: 1rem;
   font-weight: bolder;
   position: absolute;
   top: 84%;
-  left: 38%;
+  left: 35%;
 }
 
 .pet-images-container__option-activity-rest {
   color: white;
-  font-size: 3rem;
+  font-size: 1rem;
   font-weight: bolder;
   position: absolute;
   top: 84%;
-  left: 42%;
+  left: 39%;
 }
 
 .pet-images-container__option-activity-walks {
   color: white;
-  font-size: 3rem;
+  font-size: 1rem;
   font-weight: bolder;
   position: absolute;
   top: 84%;
-  left: 40%;
+  left: 37%;
 }
 
 div {
